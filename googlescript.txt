@@ -1,0 +1,46 @@
+function botResponse() {
+  var Text = '';
+  var Token = "YOUR_BOT_TOKEN_HERE";
+  var Chatid = "YOUR_CHAT_ID_HERE";
+  
+  // Get the active form and its responses
+  var form = FormApp.getActiveForm();
+  var formResponses = form.getResponses();
+  
+  // Get the latest form response
+  var i = formResponses.length - 1;
+  var formResponse = formResponses[i];
+  var itemResponses = formResponse.getItemResponses();
+  
+  // Loop through each form response and build the message text
+  for (var j = 0; j < itemResponses.length; j++) {
+    var itemResponse = itemResponses[j];
+
+    // Get the answer for each form response 
+    var response = itemResponse.getResponse();
+    
+    // Append the answer to the message text
+    Text += response;
+  }
+  
+  // Create button markup
+  var markup = {
+    inline_keyboard: [[
+      {text: '✅ Approve', callback_data: 'btn1'},
+      {text: '❌ Reject', callback_data: 'btn2'}
+    ]]
+  };
+
+  // Send the message to Telegram
+  var data = {
+    method: 'post',
+    payload: {
+      method: 'sendMessage',
+      chat_id: Chatid,
+      parse_mode: 'HTML',
+      text: Text,
+      reply_markup: JSON.stringify(markup)
+    }
+  };
+  var response = UrlFetchApp.fetch('https://api.telegram.org/bot' + Token + '/', data);
+}
