@@ -4,7 +4,7 @@ import requests
 from telebot import types
 
 # create a bot instance
-TOKEN = '6096237454:AAFdsRH0Vfly-ajPcyq5ptJXd_cJxOTTIx4'
+TOKEN = 'BOT_TOKEN_HERE'
 bot = telebot.TeleBot(TOKEN)
 
 # dictionary to store chat IDs
