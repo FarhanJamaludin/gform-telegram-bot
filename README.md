@@ -12,8 +12,7 @@ I have provided the script in the source code.
 
 ![image](https://user-images.githubusercontent.com/71540872/230781210-dafa1511-41bd-4182-85c2-d5850953a161.png)![image](https://user-images.githubusercontent.com/71540872/230781395-56af9143-50f8-409c-a7ac-a87bf8176301.png)
 
-![image](https://user-images.githubusercontent.com/71540872/230781601-ce5e8c83-5f63-4fa3-a782-cc9170bd2ff2.png)![image](https://user-images.githubusercontent.com/71540872/230781615-166fecc4-5999-4082-ae1f-4233a80498fa.png)
-
+![image](https://user-images.githubusercontent.com/71540872/230781601-ce5e8c83-5f63-4fa3-a782-cc9170bd2ff2.png)![image](https://user-images.githubusercontent.com/71540872/230781627-973508cd-2f9b-46b0-8d41-c1f9755d3ba5.png)
 
 
 
