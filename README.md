@@ -1,7 +1,5 @@
 # gform-telegram-bot
-gform-telegram-bot
 
-gform-telegram-bot
 This is a Telegram bot designed to receive data submitted from Google Forms and display the message in a private chat. 
 It was created to help the admins of the Telegram Chat (UPTM Confessions) filter confessions from students.
 
