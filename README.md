@@ -10,3 +10,4 @@ This system helps to streamline the process of filtering and approving confessio
 Please note that this project is currently unfinished. In order to send data from a Google Form to a Telegram bot, you will need to set up a Google Apps Script for the Google Form. 
 I have provided the script in the source code.
 
+![image](https://user-images.githubusercontent.com/71540872/230781171-16c80031-e11e-4b5e-8f25-13b96da2c0c7.png)
