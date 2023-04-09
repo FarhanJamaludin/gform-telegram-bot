@@ -1,6 +1,6 @@
 # gform-telegram-bot
 
-This is a Telegram bot designed to receive data submitted from Google Forms and display the message in a private chat. 
+This is a Telegram bot designed to receive data submitted from Google Forms and display the message in a private chat, or in a group. 
 It was created to help the admins of the Telegram Chat (UPTM Confessions) filter confessions from students.
 
 When the bot receives data from the Google Form, it displays the message along with "Approve" and "Reject" buttons. 
